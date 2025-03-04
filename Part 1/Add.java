@@ -12,5 +12,6 @@ public class Add{
         b = sc.nextInt();
 
         System.out.printf("The sum of %d and %d is %d",a,b,a+b);
+        sc.close();
     }
 }
