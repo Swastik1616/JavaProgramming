@@ -14,5 +14,6 @@ public class StarPyramid {
             }
             System.out.println();
         }
+        sc.close();
     }
 }
