@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class RemoveOccurrences {
+public class RemoveOccurences {
     public static int[] removeElement(int[] arr, int key) {
         int count = 0;
         
