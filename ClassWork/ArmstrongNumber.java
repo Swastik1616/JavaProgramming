@@ -1,6 +1,6 @@
 //Program to check whether a number is Armstrong number or not
 
-package learning;
+
 import java.util.Scanner;
 
 public class ArmstrongNumber {
@@ -22,5 +22,6 @@ public class ArmstrongNumber {
 		else {
 			System.out.printf("%d is not an Armstrong Number",temp);
 		}
+		sc.close();
 	}
 }

@@ -4,8 +4,8 @@ public class CreateTable {
 	public static void main (String args[]){
 		Connection conn = null;
 		Statement stmt = null;
-		ResultSet rs = null;
-		String TableName;
+		//ResultSet rs = null;
+		//String TableName;
 		try{
 			String username = "root";
 			String password = "swastik1616";

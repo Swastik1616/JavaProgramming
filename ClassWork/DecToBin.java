@@ -1,4 +1,4 @@
-package learning;
+
 import java.util.Scanner;
 
 public class DecToBin {
@@ -19,5 +19,6 @@ public class DecToBin {
 		for(i=4;i>=0;i--) {
 			System.out.printf("%d",arr[i]);
 		}
+		sc.close();
 	}
 }

@@ -1,4 +1,4 @@
-package learning;
+
 import java.util.HashMap;
 
 public class HashMapEg{

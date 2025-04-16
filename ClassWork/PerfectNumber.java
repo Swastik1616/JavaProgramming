@@ -2,7 +2,7 @@
 // Perfect number is a number whose sum of factors except the number itself is equal to that number.
 // For example- Factors of 6 are 1,2,3,6 and 1+2+3=6, so 6 is a perfect number
 
-package learning;
+
 import java.util.Scanner;
 
 public class PerfectNumber {
@@ -25,5 +25,6 @@ public class PerfectNumber {
 		else {
 			System.out.print(n + "  is not a Perfect Number ");
 		}
+		sc.close();
 	}
 }

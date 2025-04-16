@@ -18,5 +18,6 @@ public class ExceptionHandling{
             System.out.println("Second number should not be zero");
             System.out.println(e.getMessage());
         }
+        sc.close();
     }
 }

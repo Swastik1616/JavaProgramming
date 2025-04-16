@@ -1,4 +1,4 @@
-package learning;
+
 import java.util.Scanner;
 
 public class ReverseDigits {	
@@ -19,5 +19,6 @@ public class ReverseDigits {
 		for(j=0;j<=4;j++) {
 			System.out.printf("%d",arr[j]);
 		}
+		sc.close();
 	}
 }

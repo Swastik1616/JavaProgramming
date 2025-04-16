@@ -1,6 +1,6 @@
 // Given a number, find the number of digits in it
 
-package learning;
+
 import java.util.Scanner;
 
 public class NumberOfDigits {
@@ -19,5 +19,6 @@ public class NumberOfDigits {
 			count+=1;
 		}
 		System.out.printf("The number of digits in %d is %d",temp,count);
+		sc.close();
 	}
 }

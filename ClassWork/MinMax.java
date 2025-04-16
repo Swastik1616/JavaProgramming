@@ -1,4 +1,4 @@
-package learning;
+
 import java.util.Scanner;
 
 public class MinMax {	
@@ -21,5 +21,6 @@ public class MinMax {
 		}
 		System.out.printf("The minimum digit is: %d\n", smallest);
 		System.out.printf("The maximum digit is: %d", largest);
+		sc.close();
 	}
 }

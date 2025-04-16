@@ -1,7 +1,7 @@
 //Program to check whether a number is prime or composite
 // Prime number is a number who has only 2 factors, i.e 1 and number itself.
 
-package learning;
+
 import java.util.Scanner;
 
 public class PrimeNumber {
@@ -25,5 +25,6 @@ public class PrimeNumber {
 		else if(count==0) {
 			System.out.printf("%d is a Prime Number",a);
 		}
+		sc.close();
 	}
 }

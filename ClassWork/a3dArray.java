@@ -1,4 +1,4 @@
-package learning;
+
 
 public class a3dArray {
 	public static void main (String[] agrs) {

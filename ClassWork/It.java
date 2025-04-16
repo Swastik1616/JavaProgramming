@@ -1,4 +1,4 @@
-package learning;
+
 import java.util.*;
 
 public class It {

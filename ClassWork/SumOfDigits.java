@@ -1,6 +1,5 @@
 //Program to find the sum of digits of a number
 
-package learning;
 import java.util.Scanner;
 
 public class SumOfDigits {
@@ -17,5 +16,6 @@ public class SumOfDigits {
 			sum+=lastD;
 		}
 		System.out.printf("The sum of digits of %d is %d",temp,sum);
+		sc.close();
 	}
 }

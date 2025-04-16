@@ -107,8 +107,8 @@ class Calculator
 			}
 
 			System.out.println("Next Operation Started...\n\n");
-			sc.close();
 		}
+		sc.close();
 	}
 }
 

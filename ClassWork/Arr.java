@@ -1,4 +1,3 @@
-package learning;
 import java.util.ArrayList;
 
 public class Arr {
