@@ -1,2 +1,2 @@
-# JavaProgramming
- This repository contains all the Java Programs made in College
+# Java Programming
+This repository will help you find many of the famous Java programs and understand them
