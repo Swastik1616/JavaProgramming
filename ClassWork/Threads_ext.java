@@ -3,7 +3,7 @@ import java.lang.Thread;
 class MyThread1 extends Thread{
     @Override
     public void run(){
-        int i=0;
+        int i=1;
         while(i<100){
             System.out.println("This is Thread 1");
             i++;
@@ -14,7 +14,7 @@ class MyThread1 extends Thread{
 class MyThread2 extends Thread{
     @Override
     public void run(){
-        int i=0;
+        int i=1;
         while(i<100){
             System.out.println("This is Thread 2");
             i++;
