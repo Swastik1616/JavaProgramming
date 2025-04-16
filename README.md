@@ -1,2 +1,2 @@
 # JavaProgramming
- This repository contains Java Assignment
+ This repository contains all the Java Programs made in College
