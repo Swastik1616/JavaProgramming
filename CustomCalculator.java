@@ -2,8 +2,10 @@ import java.util.Scanner;
 
 public class CustomCalculator {
     public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
         Calculator c = new Calculator();
         c.run();
+		sc.close();
     }   
 }
 
@@ -68,8 +70,8 @@ class Calculator
 				
 			case '-':
 				try {
-				    float result = Calculator.add(num1, num2);
-				    System.out.println("Result: " + result);
+				    float result = Calculator.sub(num1, num2);
+				    System.out.println(result);
 				} catch (MaxInputException e) {
 				    System.out.println("Error: " + e.getMessage());
 				}
@@ -78,7 +80,7 @@ class Calculator
 			case '*':
 				try {
 				    float result = Calculator.multiply(num1, num2);
-				    System.out.println("Result: " + result);
+				    System.out.println(result);
 				} catch (MaxMultiplierReachedException e) {
 				    System.out.println("Error: " + e.getMessage());
 				}
@@ -87,7 +89,7 @@ class Calculator
 			case '/':
 				try {
 				    float result = Calculator.divide(num1, num2);
-				    System.out.println("Output: " + result);
+				    System.out.println(result);
 				} catch (CannotDivideByZeroException e) {
 				    System.out.println("Error: " + e.getMessage());
 				}
@@ -97,9 +99,16 @@ class Calculator
 				break;
 			}
 		
-		System.out.println("Current Operation Finished!\n");
-		System.out.println("Next Operation Started...\n\n");
+			System.out.println("Current Operation Finished!\n");
+		
+			System.out.print("Do you want to continue? (yes/no): ");
+			String choice = sc.next();
+			if (!choice.equalsIgnoreCase("yes")) {
+    			System.out.println("Calculator Exited.");
+    			break;
+			}
 
+			System.out.println("Next Operation Started...\n\n");
 		}
 	}
 }
