@@ -2,10 +2,8 @@ import java.util.Scanner;
 
 public class CustomCalculator {
     public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
         Calculator c = new Calculator();
         c.run();
-		sc.close();
     }   
 }
 
@@ -109,6 +107,7 @@ class Calculator
 			}
 
 			System.out.println("Next Operation Started...\n\n");
+			sc.close();
 		}
 	}
 }
