@@ -5,7 +5,7 @@ public class Connect {
 		Connection conn = null;
 		try{
 			String username = "root";
-			String password = "swastik1616";
+			String password = "nahibatauga";
 			String url = "jdbc:mysql://localhost:3306/college";
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			conn = DriverManager.getConnection(url,username,password);
