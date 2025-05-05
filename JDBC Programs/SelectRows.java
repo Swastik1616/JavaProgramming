@@ -8,11 +8,11 @@ public class SelectRows {
 		//String TableName;
 		try{
 			String username = "root";
-			String password = "swastik1616";
+			String password = "nahibatauga";
 			String url = "jdbc:mysql://localhost:3306/college";
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			conn = DriverManager.getConnection(url,username,password);
-			System.out.println("Database Connection Established");`
+			System.out.println("Database Connection Established");
 			//selcting rows from the table
 			stmt = conn.createStatement();
 			ResultSet rs = stmt.executeQuery("Select * From student;");
